@@ -7,7 +7,7 @@ import org.hibernate.Query;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
-import com.profactus.directory.model.BirdEntity;
+import com.profactus.directory.entity.BirdEntity;
 
 @Repository("birdDirectoryServiceDAO")
 public class BirdDirectoryServiceDAOImpl extends AbstractBirdDAO implements BirdDirectoryServiceDAO{

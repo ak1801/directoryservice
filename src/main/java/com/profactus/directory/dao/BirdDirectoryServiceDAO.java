@@ -2,7 +2,7 @@ package com.profactus.directory.dao;
 
 import java.util.List;
 
-import com.profactus.directory.model.BirdEntity;
+import com.profactus.directory.entity.BirdEntity;
 
 
 public interface BirdDirectoryServiceDAO {

@@ -4,7 +4,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.profactus.directory.model.BirdEntity;
+import com.profactus.directory.entity.BirdEntity;
 
 public class AbstractBirdDAO {
 

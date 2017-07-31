@@ -1,5 +1,6 @@
 package com.profactus.directory.service.rest;
 
+import org.codehaus.jackson.map.exc.UnrecognizedPropertyException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 
@@ -8,7 +9,7 @@ import com.profactus.directory.service.BirdDirectoyService;
 
 public class Main {
 
-	public static void main(String args[]) {
+	public static void main(String args[]) throws UnrecognizedPropertyException {
 		AbstractApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
 		BirdDirectoyService service = (BirdDirectoyService) context.getBean("birdDirectoryService");

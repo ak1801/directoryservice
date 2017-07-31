@@ -1,4 +1,4 @@
-package com.profactus.directory.model;
+package com.profactus.directory.entity;
 
 import java.io.Serializable;
 import java.util.Date;
