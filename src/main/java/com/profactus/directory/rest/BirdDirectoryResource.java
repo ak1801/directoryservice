@@ -1,4 +1,4 @@
-package com.profactus.directory.service.rest;
+package com.profactus.directory.rest;
  
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
