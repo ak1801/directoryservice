@@ -14,7 +14,7 @@ public class UnrecognizedPropertyExceptionMapper implements ExceptionMapper<Unre
 		return Response
                 .status(Response.Status.BAD_REQUEST)
                 .entity( "'" + exception.getUnrecognizedPropertyName() + "' attribute value is invalid/unrecognized.")
-                .type(MediaType.APPLICATION_JSON)
+                .type(MediaType.TEXT_PLAIN)
                 .build();
 	}
 }

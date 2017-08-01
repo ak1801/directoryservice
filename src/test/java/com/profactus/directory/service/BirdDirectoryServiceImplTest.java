@@ -19,6 +19,7 @@ import org.testng.annotations.Test;
 
 import com.profactus.directory.dao.BirdDirectoryServiceDAO;
 import com.profactus.directory.entity.BirdEntity;
+import com.profactus.directory.util.CommonUtil;
 
 public class BirdDirectoryServiceImplTest {
 
@@ -60,7 +61,7 @@ public class BirdDirectoryServiceImplTest {
 		b1.setName("Crow");
 		b1.setFamily("Eagle");
 		String[] continents = {"ASIA", "PACIFIC", "AUSTRALIA"};
-		b1.setContinents(format(Arrays.toString(continents)));
+		b1.setContinents(CommonUtil.format(Arrays.toString(continents)));
 		b1.setVisible(true);
 		Date date = new Date();
 		b1.setAdded(date);
@@ -68,7 +69,7 @@ public class BirdDirectoryServiceImplTest {
 		BirdEntity b2 = new BirdEntity();
 		b2.setName("White Pegion");
 		b2.setFamily("Pegions");
-		b2.setContinents(format(Arrays.toString(continents)));
+		b2.setContinents(CommonUtil.format(Arrays.toString(continents)));
 		b2.setVisible(true);
 		b1.setAdded(date);
 		
@@ -77,8 +78,5 @@ public class BirdDirectoryServiceImplTest {
 		return birds;
 	}
 	
-	private static String format(String str) {
-		
-		return str.replaceAll("[\\[\\]]", "");
-	}
+	
 }

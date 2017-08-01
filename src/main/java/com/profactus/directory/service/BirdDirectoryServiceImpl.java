@@ -20,8 +20,8 @@ import com.profactus.directory.entity.BirdEntity;
 import com.profactus.directory.exception.BirdDirectoryServiceErrorCodes;
 import com.profactus.directory.model.Bird;
 
-@Service("birdDirectoryService")
 @Transactional
+@Service("birdDirectoryService")
 public class BirdDirectoryServiceImpl implements BirdDirectoyService{
 
 	@Autowired

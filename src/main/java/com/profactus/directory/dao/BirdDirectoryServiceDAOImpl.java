@@ -6,10 +6,12 @@ import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.profactus.directory.entity.BirdEntity;
 
 @Repository("birdDirectoryServiceDAO")
+@Transactional
 public class BirdDirectoryServiceDAOImpl extends AbstractBirdDAO implements BirdDirectoryServiceDAO{
 
 	public BirdEntity addBird(BirdEntity birdEntity) {
