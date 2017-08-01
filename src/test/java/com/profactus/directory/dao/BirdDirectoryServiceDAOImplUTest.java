@@ -6,10 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BirdDirectoryServiceDAOImplTest extends EntityDaoImplTest{
+public class BirdDirectoryServiceDAOImplUTest extends EntityDaoImplUTest{
 
 	@Autowired
-	BirdDirectoryServiceDAO birdDirectoryServiceDao;
+	BirdDirectoryDAO birdDirectoryServiceDao;
 
 	@Override
 	protected IDataSet getDataSet() throws Exception{

@@ -17,14 +17,14 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.profactus.directory.dao.BirdDirectoryServiceDAO;
+import com.profactus.directory.dao.BirdDirectoryDAO;
 import com.profactus.directory.entity.BirdEntity;
 import com.profactus.directory.util.CommonUtil;
 
-public class BirdDirectoryServiceImplTest {
+public class BirdDirectoryServiceImplUTest {
 
 	@Mock
-	BirdDirectoryServiceDAO dao;
+	BirdDirectoryDAO dao;
 	
 	@InjectMocks
 	BirdDirectoryServiceImpl birdDirectoryService;

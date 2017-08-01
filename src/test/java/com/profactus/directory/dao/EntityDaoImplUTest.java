@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeMethod;
 import com.profactus.directory.configuration.HibernateTestConfiguration;
 
 @ContextConfiguration(classes = { HibernateTestConfiguration.class })
-public abstract class EntityDaoImplTest extends AbstractTransactionalTestNGSpringContextTests {
+public abstract class EntityDaoImplUTest extends AbstractTransactionalTestNGSpringContextTests {
 
 	@Autowired
 	DataSource dataSource;

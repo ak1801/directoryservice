@@ -12,7 +12,7 @@ import com.profactus.directory.entity.BirdEntity;
 
 @Repository("birdDirectoryServiceDAO")
 @Transactional
-public class BirdDirectoryServiceDAOImpl extends AbstractBirdDAO implements BirdDirectoryServiceDAO{
+public class BirdDirectoryDAOImpl extends AbstractBirdDAO implements BirdDirectoryDAO{
 
 	public BirdEntity addBird(BirdEntity birdEntity) {
 		return (BirdEntity) persist(birdEntity);

@@ -19,17 +19,17 @@ import org.springframework.test.context.support.AnnotationConfigContextLoader;
 import org.testng.Assert;
 
 import com.profactus.directory.configuration.AppConfig;
-import com.profactus.directory.dao.BirdDirectoryServiceDAO;
+import com.profactus.directory.dao.BirdDirectoryDAO;
 import com.profactus.directory.entity.BirdEntity;
 import com.profactus.directory.util.CommonUtil;
 import com.profactus.directory.util.DBUtil;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = AppConfig.class, loader = AnnotationConfigContextLoader.class)
-public class BirdDirectoryDAOImplTest {
+public class BirdDirectoryDAOImplUTestJunit {
 
 	@Autowired
-	public BirdDirectoryServiceDAO birdServiceDao;
+	public BirdDirectoryDAO birdServiceDao;
 	
 	@Autowired
     private static Environment environment;

@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.profactus.directory.common.DirectoryContants;
-import com.profactus.directory.dao.BirdDirectoryServiceDAO;
+import com.profactus.directory.dao.BirdDirectoryDAO;
 import com.profactus.directory.entity.BirdEntity;
 import com.profactus.directory.exception.BirdDirectoryServiceErrorCodes;
 import com.profactus.directory.model.Bird;
@@ -25,9 +25,9 @@ import com.profactus.directory.model.Bird;
 public class BirdDirectoryServiceImpl implements BirdDirectoyService{
 
 	@Autowired
-	public BirdDirectoryServiceDAO birdServiceDao;
+	public BirdDirectoryDAO birdServiceDao;
 	
-	public void setBirdServiceDao(BirdDirectoryServiceDAO birdServiceDao) {
+	public void setBirdServiceDao(BirdDirectoryDAO birdServiceDao) {
 		this.birdServiceDao = birdServiceDao;
 	}
 
