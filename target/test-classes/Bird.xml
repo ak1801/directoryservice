@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-	<bird id="1"	NAME="Peregrine"	FAMILY="Eagle"		CONTINENTS="ASIA,PACIFIC,AUSTRALIA"	
-	    	ADDED_ON="2017/08/01" VISIBLE="true"/>
-	<bird id="2"	NAME="White Pegion"	FAMILY="Pegion"		CONTINENTS="ASIA,PACIFIC,AUSTRALIA"	
-	    	ADDED_ON="2017/08/01" VISIBLE="true"/>
-</dataset>

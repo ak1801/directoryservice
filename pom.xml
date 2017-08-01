@@ -13,10 +13,8 @@
 		<hibernate.version>4.3.6.Final</hibernate.version>
 		<!-- hibernate.version>5.2.10.Final</hibernate.version -->
 		<mysql.version>5.1.31</mysql.version>
-		<joda-time.version>2.3</joda-time.version>
 		<jersey.version>1.9</jersey.version>
 		<junit.version>4.12</junit.version>
-		<jackson.version>2.7.3</jackson.version>
 		<testng.version>6.9.4</testng.version>
 		<mockito.version>1.10.19</mockito.version>
 		<h2.version>1.4.187</h2.version>
