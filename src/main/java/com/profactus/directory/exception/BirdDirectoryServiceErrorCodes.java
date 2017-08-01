@@ -1,6 +1,11 @@
 package com.profactus.directory.exception;
 
-
+/**
+ * This class represents error codes mapped for exceptions/errors
+ * 
+ * @author Akshit Mahajan
+ *
+ */
 public class BirdDirectoryServiceErrorCodes {
 
 	  public static String INVALID_REQUEST_OBJECT = "BRD-ERR-101 : Invalid Request";

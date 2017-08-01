@@ -1,5 +1,14 @@
 package com.profactus.directory.model;
 
+/**
+ * Bird class is a Data type for representing bird attributes.
+ * It describes name, family and continent of a particular bird.
+ * It also has additional attributes added and visible which maps to
+ * the day bird was added in directory and if the bird is visible or not.
+ * 
+ * @author Akshit Mahajan
+ *
+ */
 public class Bird {
 
 	private String id;
