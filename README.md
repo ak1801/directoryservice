@@ -1,6 +1,6 @@
 # directoryservice
 
-directoryservice is a basic HTTP service with a JSON API. The service acts as a bird directory and supports the following requests:
+directoryservice is a RESTful HTTP service with JSON API. The service acts as a directory/repository management service for Birds and supports the following requests:
 
  - `GET /birds` - List all birds
  - `POST /birds` - Add a new bird
