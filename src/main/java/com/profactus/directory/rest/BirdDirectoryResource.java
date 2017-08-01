@@ -29,10 +29,6 @@ public class BirdDirectoryResource {
  
 	AbstractApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 	private BirdDirectoyService service = (BirdDirectoyService) context.getBean("birdDirectoryService");
-
-	public void setService(BirdDirectoyService service) {
-		this.service = service;
-	}
 	
 	/**
 	 * This API registers a new Bird in the directory and returns newly added bird.
