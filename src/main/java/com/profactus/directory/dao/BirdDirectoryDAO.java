@@ -4,7 +4,6 @@ import java.util.List;
 
 import com.profactus.directory.entity.BirdEntity;
 
-
 public interface BirdDirectoryDAO {
 
 	public BirdEntity addBird(BirdEntity birdEntity);

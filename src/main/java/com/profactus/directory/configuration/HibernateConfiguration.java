@@ -16,6 +16,12 @@ import org.springframework.orm.hibernate4.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+/**
+ * Configuration class for Hibernate container
+ * 
+ * @author Akshit Mahajan
+ *
+ */
 @Configuration
 @EnableTransactionManagement
 @ComponentScan({ "com.profactus.directory.configuration" })

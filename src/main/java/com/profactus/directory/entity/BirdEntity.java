@@ -10,13 +10,16 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Entity Class for Bird type. Represents the Data Model attribute mappings between object and db.
+ * 
+ * @author Akshit Mahajan
+ *
+ */
 @Entity
 @Table(name = "BIRD")
 public class BirdEntity implements Serializable{
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 6825908051763709118L;
 
 	@Id
@@ -84,6 +87,20 @@ public class BirdEntity implements Serializable{
 
 	public void setVisible(boolean visible) {
 		this.visible = visible;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (!(obj instanceof BirdEntity))
+			return false;
+		BirdEntity other = (BirdEntity) obj;
+		if (id != other.id)
+			return false;
+		return true;
 	}
 
 }
